@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build & Run",
+      "type": "shell",
+      "command": "tsu build-cpp \"g++\" \"src\" \"smt.exe\" \"-Iinclude -std=c++17 -Wall\"; if ($LASTEXITCODE -eq 0) { ./build/smt }",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

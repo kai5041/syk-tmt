@@ -3,9 +3,12 @@
 A terminal designed to eliminate opaque OS behaviors across multiple systems.  
 Support for xarch emulation is planned. Learn more about [xarch: a modular computer architecture revised from the transistor level](https://github.com/kai5041/xarch) and [xwm: waiting for xarch](https://github.com/kai5041/xwm) for further details.
 
-> Fun fact: this project was born because Kai [profile here](https://github.com/kai5041), the creator, lost access to all his projects due to multiple failure points of modern technology in a single day, January 9, 2026. His frustration led to the creation of this project.
-
+> Fun fact: SMT was born out of frustration when Kai/解 [(profile here)](https://github.com/kai5041) lost access to all his projects due to multiple failures of modern technology in a single day, January 9, 2026.  
+> That catastrophic day forced him to create an enviroment that actually works.
 
 ## Supported platforms
+Any 64-bit machine with a C++17-compatible compiler.
 
-- Windows 11 (64-bit)
+
+## License
+This project is licensed under the [MIT License](/LICENSE)
