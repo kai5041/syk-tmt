@@ -18,7 +18,7 @@ Map<String, std::function<u32(Vec<String>&)>> commands;
 
 SMT_FUNC(version) {
 	console.write(
-		"Shoyuuken Tanmatsu / 所有権端末 (SYK-TMT) version " + std::string(smt::VERSION) + "\n"
+		"所有権端末 / Shoyuuken Tanmatsu (SYK-TMT) version " + std::string(smt::VERSION) + "\n"
 		"Repository: https://github.com/kai5041/syk-tmt\n" +
 		std::string(smt::colors::bg::WHITE) +
 		smt::colors::fg::BLACK +
