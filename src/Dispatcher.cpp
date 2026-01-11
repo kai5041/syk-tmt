@@ -104,9 +104,17 @@ namespace smt {
       std::getline(std::cin, line);
       if (line.empty()) continue;
 
-      std::stringstream ss(line);
-      String token;
-      while (ss >> token) args.push_back(token);
+      Vec<String> args;
+      size_t start = 0;
+      while (start < line.size()) {
+        size_t end = line.find(' ', start);
+        if (end == String::npos) end = line.size();
+        if (end != start) {
+          args.push_back(line.substr(start, end - start));
+        }
+        start = end + 1;
+      }
+
 
       if (args.empty()) continue;
 
