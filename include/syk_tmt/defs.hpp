@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <vector>
 
-namespace smt {
+namespace syk_tmt {
 
   using u8 = std::uint8_t;
   using u16 = std::uint16_t;
@@ -31,4 +31,4 @@ namespace smt {
     return os << static_cast<unsigned int>(value);
   }
 
-} // namespace smt
+} // namespace syk_tmt

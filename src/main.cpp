@@ -1,8 +1,8 @@
-#include <smt/helpers.hpp>
+#include <syk_tmt/helpers.hpp>
 
-#include <smt/Dispatcher.hpp>
+#include <syk_tmt//Dispatcher.hpp>
 
-using namespace smt;
+using namespace syk_tmt;
 
 
 int main() {

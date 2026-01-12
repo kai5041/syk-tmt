@@ -4,7 +4,7 @@
     {
       "label": "Build & Run",
       "type": "shell",
-      "command": "tsu build-cpp \"g++\" \"src\" \"smt.exe\" \"-Iinclude -std=c++17 -Wall\"; .\\build\\smt.exe",
+      "command": "tsu build-cpp \"g++\" \"src\" \"syk-tmt\" \"-Iinclude -std=c++17 -Wall\"; .\\build\\syk-tmt",
       "problemMatcher": [],
       "group": {
         "kind": "build",

@@ -8,7 +8,7 @@
 #include <windows.h>
 #endif
 
-namespace smt {
+namespace syk_tmt {
 
   namespace colors {
 
@@ -89,4 +89,4 @@ namespace smt {
   constexpr const char* PATCH = "0";
   inline std::string VERSION = std::string(MAJOR) + "." + MINOR + "." + PATCH;
 
-} // namespace smt
+} // namespace syk_tmt
